@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bb99ff;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbbbbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5c5c3d;
+    color: #ffff4d
+}
+.active {
+    background-color:#5c5c3d;
+    color: #ffff4d
+}
+p {
+    color:#e29c56
+}
+body {
+      background-image: url("Novel.jpeg");   
+        }
+#main {
+            margin: auto;
+            width: 75%;
+            height: 800px;
+            background-color: none;
+            text-align: left;
+            font-family: 'Sedgwick Ave', serif;
+            font-size: 17px;
+            text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+            }
